@@ -2,7 +2,9 @@
 let amigos = [];
 
 function agregarAmigo(nombre) {
-    
+    let inputAmigo = document.getElementById("amigo");
+    let amigo = inputAmigo.ariaValue;
 
-console.log (amigos)
+    amigos.push(amigo)
+
 }
