@@ -6,7 +6,7 @@ function agregarAmigo () {
     let nombre = amigoInput.value.trim();
 
     if(nombre ==='') {
-        alert("Favor de infresar nombres válidos");
+        alert("Favor de ingresar nombres válidos");
         return;
     }
 
