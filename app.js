@@ -13,7 +13,7 @@ function agregarAmigo () {
     amigus.push(nombre);
 
     let li =document.createElement('li');
-    li.textContent = nombre:
+    li.textContent = nombre;
     listaAmigos.appendChild(li);
 
     amigoInput.value='';
@@ -32,3 +32,4 @@ function sortearAmigo() {
 
     resultado.innerHTML=<li>El amigo secreto es:<strong>${sorteado}</strong></li>
 }
+console.log 
