@@ -4,7 +4,9 @@ let amigos = [];
 function agregarAmigo () {
     const texto = document.getElementById('amigo');
     const button container = document.getElementById('listadoAmigos')
-        
+
+    console.log()
+
     }
 
 }
