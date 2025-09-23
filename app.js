@@ -10,7 +10,7 @@ function agregarAmigo () {
         return;
     }
 
-    amigus.push(nombre);
+    amigos.push(nombre);
 
     let li =document.createElement('li');
     li.textContent = nombre;
